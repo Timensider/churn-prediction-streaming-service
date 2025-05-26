@@ -1,0 +1,15 @@
+# 🔒 Jupyter auto files
+.ipynb_checkpoints/
+
+# 🔒 Python cache
+__pycache__/
+*.pyc
+
+# 🔒 Environment files (optional)
+.env
+*.env
+
+# 🔒 Logs, temp files
+*.log
+.DS_Store
+Thumbs.db
