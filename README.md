@@ -8,7 +8,7 @@ It was originally inspired by a Coursera capstone challenge but has since been e
 ---
 
 > **Want a clean view of the Jupyter Notebook?**  
-> 👉 [Click here to view it in nbviewer.org](https://nbviewer.org/url/raw.githubusercontent.com/Timensider/churn-prediction-streaming-service/main/notebooks/ChurnPrediction11_cleaned_final.ipynb)
+> 👉 [Click here to view it in nbviewer.org](https://nbviewer.org/url/raw.githubusercontent.com/Timensider/churn-prediction-streaming-service/main/notebooks/ChurnPrediction.ipynb)
 
 ## Project Overview
 
@@ -58,7 +58,7 @@ This project aims to:
 ```
 .
 ├── notebooks/
-│   └── ChurnPrediction11_cleaned_final.ipynb
+│   └── ChurnPrediction.ipynb
 ├── data/                # Not included
 ├── assets
 │   └── video_streaming.png
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 Then open the notebook:
 ```
-notebooks/ChurnPrediction11_cleaned_final.ipynb
+notebooks/ChurnPrediction.ipynb
 ```
 
 ---
