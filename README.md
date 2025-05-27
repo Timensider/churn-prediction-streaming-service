@@ -3,23 +3,27 @@
 # Churn Prediction for a Video Streaming Service
 
 This project builds and evaluates machine learning models to predict **customer churn** for a video streaming subscription service.  
-It was originally inspired by a Coursera capstone challenge but has since been extended to explore advanced techniques and additional evaluation strategies.
+It was originally inspired by a Coursera capstone challenge but has since been extended to explore advanced modeling techniques, automated hyperparameter tuning, and model explainability.
 
 ---
 
 ## Project Overview
 
-Churn — the likelihood of a customer canceling their subscription — is a major concern for any subscription-based business.  
-This project aims to predict churn probabilities using features derived from customer behavior and history. A classifier is trained to output **well-calibrated probabilities** of churn.
+Churn — the likelihood of a customer canceling their subscription — is a critical metric for any subscription-based business.
+
+This project aims to:  
+ - Train a classifier to predict churn likelihood.  
+ - Output well-calibrated churn probabilities.  
+ - Analyze performance and key drivers of customer retention.  
 
 ### Dataset Structure
 
 - `train.csv`: labeled dataset with customer features and a churn label
-- `test.csv`: unlabeled dataset (no `y` column); predictions are evaluated externally using ROC-AUC
+- `test.csv`: Unlabeled dataset; evaluated externally via ROC-AUC.
 
 
 > ⚠️ **Note**: The dataset is not included in this repository due to Coursera content policies.
-> The notebook retains all code, visualizations, and results to showcase modeling ability.  
+> However, the notebook retains all code, visualizations, and model results to fully demonstrate the solution. 
 > If you have access to the original dataset, the notebook will run end-to-end.
 
 ---
@@ -29,14 +33,14 @@ This project aims to predict churn probabilities using features derived from cus
 - **Python**
 - **scikit-learn**, **LightGBM**, **XGBoost**
 - **Optuna** (for hyperparameter optimization)
-- **SHAP**, **matplotlib**, **seaborn** (for explainability and visualization)
-- **imbalanced-learn** (for handling class imbalance)
+- **SHAP**, **matplotlib**, **seaborn** (for interpretability and visualization)
+- **imbalanced-learn** (for class imbalance techniques)
 
 ---
 
 ## Model Evaluation Summary
 
-| Model            | CV ROC-AUC | CV Log Loss | Precision | Recall  | F1 Score |
+| Model            | ROC-AUC    | Log Loss   | Precision | Recall  | F1 Score |
 |------------------|------------|-------------|-----------|---------|----------|
 | LogisticRegression | 0.7498   | 0.5869      | 0.3246    | 0.6823  | 0.4399   |
 | RandomForest      | 0.6801    | 0.5416      | 0.3103    | 0.3924  | 0.3465   |
@@ -76,9 +80,12 @@ notebooks/ChurnPrediction11_cleaned_final.ipynb
 
 ## Author’s Note
 
-This version of the project was developed **after completing the original Coursera challenge**, as a way to practice advanced modeling, optimization, and evaluation techniques.
+This version of the project was developed **after completing the original Coursera challenge** to practice:  
+ - Building more robust models  
+ - Automating tuning with Optuna  
+ - Interpreting results with SHAP  
 
-This project was developed independently, collaborating with AI tools and documentation along the way — just as in a real-world workflow.
+AI tools were used for research, code drafting, and documentation — reflecting a modern, real-world workflow.  
 
 ---
 
