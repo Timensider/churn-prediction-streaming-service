@@ -15,5 +15,5 @@ __pycache__/
 Thumbs.db
 
 # 🔒 Datasets - original and test CSVs
-#*.csv
+*.csv
 
