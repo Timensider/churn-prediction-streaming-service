@@ -70,6 +70,10 @@ This project aims to:
 
 ## Running the Project
 
+This notebook includes all outputs and results.  
+It’s meant to showcase the full forecasting pipeline from data prep to deployment.  
+You don’t need to run it — everything is already rendered for review.
+
 If you have access to the original Coursera dataset:
 
 ```bash

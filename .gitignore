@@ -13,3 +13,7 @@ __pycache__/
 *.log
 .DS_Store
 Thumbs.db
+
+# 🔒 Datasets - original and test CSVs
+#*.csv
+
