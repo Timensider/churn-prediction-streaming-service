@@ -1,4 +1,4 @@
-![Churn Prediction Banner](assets/video_streaming.png)
+![Churn Prediction Banner](assets/Video_Streaming_Service.png)
 
 # Churn Prediction for a Video Streaming Service
 
@@ -6,6 +6,9 @@ This project builds and evaluates machine learning models to predict **customer 
 It was originally inspired by a Coursera capstone challenge but has since been extended to explore advanced modeling techniques, automated hyperparameter tuning, and model explainability.
 
 ---
+
+> **Want a clean view of the Jupyter Notebook?**  
+> 👉 [Click here to view it in nbviewer.org](https://nbviewer.org/url/raw.githubusercontent.com/Timensider/churn-prediction-streaming-service/main/notebooks/ChurnPrediction11_cleaned_final.ipynb)
 
 ## Project Overview
 
