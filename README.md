@@ -61,7 +61,7 @@ This project aims to:
 
 ```
 .
-├── notebooks/
+├── notebook/
 │   └── ChurnPrediction.ipynb
 ├── data/                # Not included
 ├── assets
@@ -86,7 +86,7 @@ pip install -r requirements.txt
 
 Then open the notebook:
 ```
-notebooks/ChurnPrediction.ipynb
+notebook/ChurnPrediction.ipynb
 ```
 
 ---
