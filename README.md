@@ -8,7 +8,7 @@ It was originally inspired by a Coursera capstone challenge but has since been e
 ---
 
 > **Want a clean view of the Jupyter Notebook?**  
-> 👉 [Click here to view it in nbviewer.org](https://nbviewer.org/url/raw.githubusercontent.com/Timensider/churn-prediction-streaming-service/main/notebooks/ChurnPrediction.ipynb)
+> 👉 [Click here to view it in nbviewer.org](https://nbviewer.org/url/raw.githubusercontent.com/Timensider/churn-prediction-streaming-service/main/notebook/ChurnPrediction.ipynb)
 
 ## Project Overview
 
