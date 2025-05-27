@@ -8,7 +8,11 @@ It was originally inspired by a Coursera capstone challenge but has since been e
 ---
 
 > **Want a clean view of the Jupyter Notebook?**  
-> 👉
+>  This notebook includes all model outputs, plots, and results.  
+> It may show errors in Colab when attempting to re-run cells that depend on restricted or missing data (not included per Coursera policy).
+>  
+> Use this notebook as a read-only showcase — all results are already included.
+> 
 - [Open in Colab](https://colab.research.google.com/github/Timensider/churn-prediction-streaming-service/blob/main/notebook/ChurnPrediction.ipynb)
 - [Try in nbviewer](https://nbviewer.org/url/raw.githubusercontent.com/Timensider/churn-prediction-streaming-service/main/notebook/ChurnPrediction.ipynb)
 - [View on GitHub](https://github.com/Timensider/churn-prediction-streaming-service/blob/main/notebook/ChurnPrediction.ipynb)
