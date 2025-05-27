@@ -65,13 +65,20 @@ This project aims to:
 
 ```
 .
-├── notebook/
+├── notebooks/                          # All Jupyter notebooks
 │   └── ChurnPrediction.ipynb
-├── data/                # Not included
-├── assets
+│
+├── data/                               # Not included – used locally
+│   └── (Mentioned in README, ignored in repo)
+│
+├── assets/                             # Visual assets for README or analysis
 │   └── video_streaming.png
-├── requirements.txt     
-└── README.md
+│
+├── .gitignore                          # Files and folders to exclude from Git
+├── LICENSE                             # MIT License for code
+├── README.md                           # Project overview + instructions
+├── requirements.txt                    # Python package dependencies
+
 ```
 
 ---
