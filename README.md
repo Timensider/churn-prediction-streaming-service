@@ -1,4 +1,4 @@
-![Churn Prediction Banner](assets/Video_Streaming_Service.png)
+![Churn Prediction Banner](assets/Video_Streaming_Service_.png)
 
 # Churn Prediction for a Video Streaming Service
 
