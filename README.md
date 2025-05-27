@@ -65,7 +65,7 @@ This project aims to:
 
 ```
 .
-├── notebooks/                          # All Jupyter notebooks
+├── notebook/                          # All Jupyter notebooks
 │   └── ChurnPrediction.ipynb
 │
 ├── data/                               # Not included – used locally
