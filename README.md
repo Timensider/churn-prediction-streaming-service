@@ -97,15 +97,21 @@ notebook/ChurnPrediction.ipynb
 
 ## Author’s Note
 
-This version of the project was developed **after completing the original Coursera challenge** to practice:  
- - Building more robust models  
- - Automating tuning with Optuna  
- - Interpreting results with SHAP  
+This version of the project was developed **after completing the original Coursera challenge**, and is intended for educational and portfolio purposes only.
 
-AI tools were used for research, code drafting, and documentation — reflecting a modern, real-world workflow.  
+All code, models, and evaluations were written independently to:
+- Explore more robust modeling techniques
+- Automate tuning with Optuna
+- Improve interpretability using SHAP and other tools
+
+⚠️ **Note**: This repository does **not** include the original Coursera datasets or any proprietary course materials, in compliance with Coursera's content policy.
+
+AI tools were used to support research, code drafting, and documentation — reflecting a modern, real-world workflow.
 
 ---
 
 ## License
 
-This project is open-source and released under the MIT License.
+This project is open-source and released under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
+
