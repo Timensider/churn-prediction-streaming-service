@@ -70,11 +70,13 @@ This project aims to:
 
 ## Running the Project
 
+If you have access to the original Coursera dataset:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-Then run the notebook:
+Then open the notebook:
 ```
 notebooks/ChurnPrediction11_cleaned_final.ipynb
 ```
